@@ -1,0 +1,53 @@
+body,
+html{
+	min-height: 100%;
+	font-family: "Delius";
+}
+body{
+	background-image: url("../images/Samsung.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar-brand{
+	padding-top: 0px;
+}
+.jumbotron{
+	background-color: rgba(44,62,80,.5);
+	color: white;
+}
+p.description{
+	font-size:1.2em;
+}
+.footer{
+	background-color: rgba(44,62,80,.5);
+}
+
+         /*about page css*/
+.about-top{
+	margin-top:50px;
+	height: 50%;
+	background-color:rgba(0,0,0,.5);
+}
+.about-bottom{
+	background-color:rgba(0,0,0,.5);
+}
+.aboutpage-logo{
+	width: 30%;
+}
+.aboutpage-description{
+	padding: 40px;
+	text-align: center;
+	color: white;
+	width: 60%;
+	font-size: 20px
+}
+.personel{
+ 	padding: 40px;
+	text-align: center;
+	color: white;
+	width: 60%;
+	font-size: 20px
+}
+.personel-image{
+	width: 30%;
+}
