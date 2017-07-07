@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Wiziguard</title>
+	<title><?php echo $title ?></title>
 	<link rel= "stylesheet" href ="https://bootswatch.com/flatly/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/appcss.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
@@ -34,8 +34,8 @@
 	<div class="collapse navbar-collapse" id="collapsible-navbar">
         <ul class="nav navbar-nav">
         	<li  class="nav-item active "><a href="<?php echo base_url(); ?>">Home</a></li>
-            <li  class="nav-item "><a href="<?php echo base_url();?>register">Sign Up</a></li>
-            <li  class="nav-item "><a href="<?php echo base_url();?>login">Login</a></li>
+            <li  class="nav-item "><a href="<?php echo base_url();?>auth/register">Sign Up</a></li>
+            <li  class="nav-item "><a href="<?php echo base_url();?>auth/login">Login</a></li>
             <li  class="nav-item "><a href="<?php echo base_url();?>about">About Us</a></li>
         </ul>
 	</div>
